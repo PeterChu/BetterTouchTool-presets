@@ -1,11 +1,36 @@
 {
   "BTTPresetName" : "Default",
-  "BTTPresetUUID" : "6BB96662-F9C4-43B2-A420-FC4667467EEC",
+  "BTTPresetUUID" : "F5BF5A91-3536-46EE-A7D0-6CB0A6513B15",
   "BTTPresetContent" : [
     {
       "BTTAppBundleIdentifier" : "BT.G",
       "BTTAppName" : "Global",
+      "BTTAppSpecificSettings" : {
+
+      },
       "BTTTriggers" : [
+        {
+          "BTTTriggerType" : -1,
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,13",
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 13,
+          "BTTShortcutModifierKeys" : 262144,
+          "BTTOrder" : 7
+        },
+        {
+          "BTTTriggerType" : -1,
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,32",
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 32,
+          "BTTShortcutModifierKeys" : 262144,
+          "BTTOrder" : 10
+        },
         {
           "BTTTriggerType" : -1,
           "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
@@ -18,6 +43,18 @@
           "BTTOrder" : 20
         },
         {
+          "BTTTriggerType" : -1,
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,9",
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 9,
+          "BTTShortcutModifierKeys" : 262144,
+          "BTTOrder" : 1
+        },
+        {
+          "BTTTriggerType" : -1,
           "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
           "BTTPredefinedActionType" : -1,
           "BTTPredefinedActionName" : "No Action",
@@ -32,13 +69,47 @@
           "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
           "BTTPredefinedActionType" : -1,
           "BTTPredefinedActionName" : "No Action",
-          "BTTShortcutToSend" : "55,0",
+          "BTTShortcutToSend" : "56,55,123",
           "BTTEnabled" : 1,
-          "BTTShortcutKeyCode" : 0,
-          "BTTShortcutModifierKeys" : 262144,
-          "BTTOrder" : 3
+          "BTTShortcutKeyCode" : 115,
+          "BTTShortcutModifierKeys" : 8519680,
+          "BTTOrder" : 22
         },
         {
+          "BTTTriggerType" : -1,
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,124",
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 119,
+          "BTTShortcutModifierKeys" : 8388608,
+          "BTTOrder" : 17
+        },
+        {
+          "BTTTriggerType" : -1,
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "56,55,124",
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 119,
+          "BTTShortcutModifierKeys" : 8519680,
+          "BTTOrder" : 23
+        },
+        {
+          "BTTTriggerType" : -1,
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,27",
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 27,
+          "BTTShortcutModifierKeys" : 262144,
+          "BTTOrder" : 14
+        },
+        {
+          "BTTTriggerType" : -1,
           "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
           "BTTPredefinedActionType" : -1,
           "BTTPredefinedActionName" : "No Action",
@@ -64,18 +135,18 @@
           "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
           "BTTPredefinedActionType" : -1,
           "BTTPredefinedActionName" : "No Action",
-          "BTTShortcutToSend" : "55,13",
+          "BTTShortcutToSend" : "55,15",
           "BTTEnabled" : 1,
-          "BTTShortcutKeyCode" : 13,
-          "BTTShortcutModifierKeys" : 262144,
-          "BTTOrder" : 7
+          "BTTShortcutKeyCode" : 96,
+          "BTTShortcutModifierKeys" : 8388608,
+          "BTTOrder" : 15
         },
         {
+          "BTTTriggerType" : -1,
           "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
           "BTTPredefinedActionType" : -1,
           "BTTPredefinedActionName" : "No Action",
           "BTTShortcutToSend" : "55,8",
-          "BTTAdditionalConfiguration" : "262144",
           "BTTEnabled" : 1,
           "BTTShortcutKeyCode" : 8,
           "BTTShortcutModifierKeys" : 262144,
@@ -97,65 +168,11 @@
           "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
           "BTTPredefinedActionType" : -1,
           "BTTPredefinedActionName" : "No Action",
-          "BTTShortcutToSend" : "55,1",
+          "BTTShortcutToSend" : "55,24",
           "BTTEnabled" : 1,
-          "BTTShortcutKeyCode" : 1,
+          "BTTShortcutKeyCode" : 24,
           "BTTShortcutModifierKeys" : 262144,
-          "BTTOrder" : 4
-        },
-        {
-          "BTTTriggerType" : -1,
-          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTPredefinedActionType" : 13,
-          "BTTPredefinedActionName" : "Sleep Display",
-          "BTTEnabled" : 1,
-          "BTTShortcutKeyCode" : 37,
-          "BTTShortcutModifierKeys" : 1048576,
-          "BTTOrder" : 24
-        },
-        {
-          "BTTTriggerType" : -1,
-          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTPredefinedActionType" : -1,
-          "BTTPredefinedActionName" : "No Action",
-          "BTTShortcutToSend" : "55,15",
-          "BTTEnabled" : 1,
-          "BTTShortcutKeyCode" : 96,
-          "BTTShortcutModifierKeys" : 8388608,
-          "BTTOrder" : 15
-        },
-        {
-          "BTTTriggerType" : -1,
-          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTPredefinedActionType" : -1,
-          "BTTPredefinedActionName" : "No Action",
-          "BTTShortcutToSend" : "56,55,123",
-          "BTTEnabled" : 1,
-          "BTTShortcutKeyCode" : 115,
-          "BTTShortcutModifierKeys" : 8519680,
-          "BTTOrder" : 22
-        },
-        {
-          "BTTTriggerType" : -1,
-          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTPredefinedActionType" : -1,
-          "BTTPredefinedActionName" : "No Action",
-          "BTTShortcutToSend" : "55,3",
-          "BTTEnabled" : 1,
-          "BTTShortcutKeyCode" : 3,
-          "BTTShortcutModifierKeys" : 262144,
-          "BTTOrder" : 6
-        },
-        {
-          "BTTTriggerType" : -1,
-          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTPredefinedActionType" : -1,
-          "BTTPredefinedActionName" : "No Action",
-          "BTTShortcutToSend" : "56,55,124",
-          "BTTEnabled" : 1,
-          "BTTShortcutKeyCode" : 119,
-          "BTTShortcutModifierKeys" : 8519680,
-          "BTTOrder" : 23
+          "BTTOrder" : 13
         },
         {
           "BTTTriggerType" : -1,
@@ -173,43 +190,11 @@
           "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
           "BTTPredefinedActionType" : -1,
           "BTTPredefinedActionName" : "No Action",
-          "BTTShortcutToSend" : "55,27",
-          "BTTEnabled" : 1,
-          "BTTShortcutKeyCode" : 27,
-          "BTTShortcutModifierKeys" : 262144,
-          "BTTOrder" : 14
-        },
-        {
-          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTPredefinedActionType" : -1,
-          "BTTPredefinedActionName" : "No Action",
-          "BTTShortcutToSend" : "55,9",
-          "BTTEnabled" : 1,
-          "BTTShortcutKeyCode" : 9,
-          "BTTShortcutModifierKeys" : 262144,
-          "BTTOrder" : 1
-        },
-        {
-          "BTTTriggerType" : -1,
-          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTPredefinedActionType" : -1,
-          "BTTPredefinedActionName" : "No Action",
           "BTTShortcutToSend" : "55,17",
           "BTTEnabled" : 1,
           "BTTShortcutKeyCode" : 17,
           "BTTShortcutModifierKeys" : 262144,
           "BTTOrder" : 12
-        },
-        {
-          "BTTTriggerType" : -1,
-          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTPredefinedActionType" : -1,
-          "BTTPredefinedActionName" : "No Action",
-          "BTTShortcutToSend" : "55,32",
-          "BTTEnabled" : 1,
-          "BTTShortcutKeyCode" : 32,
-          "BTTShortcutModifierKeys" : 262144,
-          "BTTOrder" : 10
         },
         {
           "BTTTriggerType" : -1,
@@ -227,23 +212,46 @@
           "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
           "BTTPredefinedActionType" : -1,
           "BTTPredefinedActionName" : "No Action",
-          "BTTShortcutToSend" : "58,124",
+          "BTTShortcutToSend" : "55,3",
           "BTTEnabled" : 1,
-          "BTTShortcutKeyCode" : 124,
-          "BTTShortcutModifierKeys" : 8650752,
-          "BTTOrder" : 21
+          "BTTShortcutKeyCode" : 3,
+          "BTTShortcutModifierKeys" : 262144,
+          "BTTOrder" : 6
         },
         {
+          "BTTTriggerType" : -1,
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 13,
+          "BTTPredefinedActionName" : "Sleep Display",
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 37,
+          "BTTShortcutModifierKeys" : 1048576,
+          "BTTOrder" : 24
+        },
+        {
+          "BTTTriggerType" : -1,
           "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
           "BTTPredefinedActionType" : -1,
           "BTTPredefinedActionName" : "No Action",
-          "BTTShortcutToSend" : "55,124",
+          "BTTShortcutToSend" : "55,0",
           "BTTEnabled" : 1,
-          "BTTShortcutKeyCode" : 119,
-          "BTTShortcutModifierKeys" : 8388608,
-          "BTTOrder" : 17
+          "BTTShortcutKeyCode" : 0,
+          "BTTShortcutModifierKeys" : 262144,
+          "BTTOrder" : 3
         },
         {
+          "BTTTriggerType" : -1,
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "55,1",
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 1,
+          "BTTShortcutModifierKeys" : 262144,
+          "BTTOrder" : 4
+        },
+        {
+          "BTTTriggerType" : -1,
           "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
           "BTTPredefinedActionType" : -1,
           "BTTPredefinedActionName" : "No Action",
@@ -269,40 +277,31 @@
           "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
           "BTTPredefinedActionType" : -1,
           "BTTPredefinedActionName" : "No Action",
-          "BTTShortcutToSend" : "55,24",
-          "BTTEnabled" : 1,
-          "BTTShortcutKeyCode" : 24,
-          "BTTShortcutModifierKeys" : 262144,
-          "BTTOrder" : 13
-        },
-        {
-          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTPredefinedActionType" : -1,
-          "BTTPredefinedActionName" : "No Action",
-          "BTTShortcutToSend" : "58,56,124",
-          "BTTAdditionalConfiguration" : "8781824",
-          "BTTTriggerOnDown" : 0,
+          "BTTShortcutToSend" : "58,124",
           "BTTEnabled" : 1,
           "BTTShortcutKeyCode" : 124,
-          "BTTShortcutModifierKeys" : 8781824,
-          "BTTOrder" : 25
-        },
-        {
-          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTPredefinedActionType" : -1,
-          "BTTPredefinedActionName" : "No Action",
-          "BTTShortcutToSend" : "58,56,123",
-          "BTTAdditionalConfiguration" : "8781824",
-          "BTTTriggerOnDown" : 0,
-          "BTTEnabled" : 1,
-          "BTTShortcutKeyCode" : 123,
-          "BTTShortcutModifierKeys" : 8781824,
-          "BTTOrder" : 26
+          "BTTShortcutModifierKeys" : 8650752,
+          "BTTOrder" : 21
         }
-      ],
-      "BTTAppSpecificSettings" : {
-
-      }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.google.Chrome",
+      "BTTAppName" : "Google Chrome",
+      "BTTAppProcessMatchMode" : 2,
+      "BTTAppProcessName" : "Google Chrome",
+      "BTTTriggers" : [
+        {
+          "BTTTriggerType" : 1000,
+          "BTTTriggerTypeDescription" : "Leftclick (needs modifier key)",
+          "BTTTriggerClass" : "BTTTriggerTypeNormalMouse",
+          "BTTPredefinedActionType" : 2,
+          "BTTPredefinedActionName" : "CMD(⌘)+Click",
+          "BTTEnabled" : 1,
+          "BTTRequiredModifierKeys" : 262144,
+          "BTTOrder" : 0
+        }
+      ]
     },
     {
       "BTTAppBundleIdentifier" : "com.microsoft.rdc.macos",
@@ -311,31 +310,7 @@
       "BTTAppProcessName" : "Microsoft Remote Desktop",
       "BTTTriggers" : [
         {
-          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTPredefinedActionType" : 0,
-          "BTTPredefinedActionName" : "Use Apple Default Or Do Nothing",
-          "BTTEnabled" : 1,
-          "BTTShortcutKeyCode" : 115,
-          "BTTShortcutModifierKeys" : 8388608,
-          "BTTOrder" : 0,
-          "BTTKeySequence" : {
-
-          },
-          "BTTTriggerConfig" : {
-            "BTTTouchBarItemIconHeight" : 0,
-            "BTTTouchBarItemIconWidth" : 0
-          }
-        },
-        {
-          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTPredefinedActionType" : 0,
-          "BTTPredefinedActionName" : "Use Apple Default Or Do Nothing",
-          "BTTEnabled" : 1,
-          "BTTShortcutKeyCode" : 9,
-          "BTTShortcutModifierKeys" : 262144,
-          "BTTOrder" : 3
-        },
-        {
+          "BTTTriggerType" : -1,
           "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
           "BTTPredefinedActionType" : 0,
           "BTTPredefinedActionName" : "Use Apple Default Or Do Nothing",
@@ -352,15 +327,7 @@
           }
         },
         {
-          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTPredefinedActionType" : 0,
-          "BTTPredefinedActionName" : "Use Apple Default Or Do Nothing",
-          "BTTEnabled" : 1,
-          "BTTShortcutKeyCode" : 8,
-          "BTTShortcutModifierKeys" : 262144,
-          "BTTOrder" : 2
-        },
-        {
+          "BTTTriggerType" : -1,
           "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
           "BTTPredefinedActionType" : 0,
           "BTTPredefinedActionName" : "Use Apple Default Or Do Nothing",
@@ -368,6 +335,86 @@
           "BTTShortcutKeyCode" : 119,
           "BTTShortcutModifierKeys" : 8388608,
           "BTTOrder" : 1,
+          "BTTKeySequence" : {
+
+          },
+          "BTTTriggerConfig" : {
+            "BTTTouchBarItemIconHeight" : 0,
+            "BTTTouchBarItemIconWidth" : 0
+          }
+        },
+        {
+          "BTTTriggerType" : -1,
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 0,
+          "BTTPredefinedActionName" : "Use Apple Default Or Do Nothing",
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 115,
+          "BTTShortcutModifierKeys" : 8388608,
+          "BTTOrder" : 0,
+          "BTTKeySequence" : {
+
+          },
+          "BTTTriggerConfig" : {
+            "BTTTouchBarItemIconHeight" : 0,
+            "BTTTouchBarItemIconWidth" : 0
+          }
+        },
+        {
+          "BTTTriggerType" : -1,
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 0,
+          "BTTPredefinedActionName" : "Use Apple Default Or Do Nothing",
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 9,
+          "BTTShortcutModifierKeys" : 262144,
+          "BTTOrder" : 3
+        },
+        {
+          "BTTTriggerType" : -1,
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 0,
+          "BTTPredefinedActionName" : "Use Apple Default Or Do Nothing",
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 8,
+          "BTTShortcutModifierKeys" : 262144,
+          "BTTOrder" : 2
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.binarynights.ForkLift2",
+      "BTTAppName" : "ForkLift",
+      "BTTAppProcessMatchMode" : 2,
+      "BTTAppProcessName" : "ForkLift",
+      "BTTTriggers" : [
+        {
+          "BTTTriggerType" : -1,
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : -1,
+          "BTTPredefinedActionName" : "No Action",
+          "BTTShortcutToSend" : "58,56,55,34",
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 4,
+          "BTTShortcutModifierKeys" : 262144,
+          "BTTOrder" : 43,
+          "BTTKeySequence" : {
+
+          },
+          "BTTTriggerConfig" : {
+            "BTTTouchBarItemIconHeight" : 0,
+            "BTTTouchBarItemIconWidth" : 0
+          }
+        },
+        {
+          "BTTTriggerType" : 1000,
+          "BTTTriggerTypeDescription" : "Leftclick (needs modifier key)",
+          "BTTTriggerClass" : "BTTTriggerTypeNormalMouse",
+          "BTTPredefinedActionType" : 2,
+          "BTTPredefinedActionName" : "CMD(⌘)+Click",
+          "BTTEnabled" : 1,
+          "BTTRequiredModifierKeys" : 262144,
+          "BTTOrder" : 34,
           "BTTKeySequence" : {
 
           },
@@ -386,16 +433,6 @@
       },
       "BTTTriggers" : [
         {
-          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTPredefinedActionType" : -1,
-          "BTTPredefinedActionName" : "No Action",
-          "BTTShortcutToSend" : "56,55,47",
-          "BTTEnabled" : 1,
-          "BTTShortcutKeyCode" : 4,
-          "BTTShortcutModifierKeys" : 262144,
-          "BTTOrder" : 0
-        },
-        {
           "BTTTriggerType" : 1000,
           "BTTTriggerTypeDescription" : "Leftclick (needs modifier key)",
           "BTTTriggerClass" : "BTTTriggerTypeNormalMouse",
@@ -404,78 +441,6 @@
           "BTTEnabled" : 1,
           "BTTRequiredModifierKeys" : 262144,
           "BTTOrder" : 33,
-          "BTTKeySequence" : {
-
-          },
-          "BTTTriggerConfig" : {
-            "BTTTouchBarItemIconHeight" : 0,
-            "BTTTouchBarItemIconWidth" : 0
-          }
-        }
-      ]
-    },
-    {
-      "BTTAppBundleIdentifier" : "com.jetbrains.intellij",
-      "BTTAppName" : "IntelliJ IDEA",
-      "BTTAppProcessMatchMode" : 2,
-      "BTTAppProcessName" : "IntelliJ IDEA",
-      "BTTTriggers" : [
-        {
-          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTPredefinedActionType" : 0,
-          "BTTPredefinedActionName" : "Use Apple Default Or Do Nothing",
-          "BTTAdditionalConfiguration" : "8388608",
-          "BTTTriggerOnDown" : 1,
-          "BTTEnabled" : 1,
-          "BTTShortcutKeyCode" : 119,
-          "BTTShortcutModifierKeys" : 8388608,
-          "BTTOrder" : 1
-        },
-        {
-          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTPredefinedActionType" : 0,
-          "BTTPredefinedActionName" : "Use Apple Default Or Do Nothing",
-          "BTTAdditionalConfiguration" : "8388608",
-          "BTTTriggerOnDown" : 1,
-          "BTTEnabled" : 1,
-          "BTTShortcutKeyCode" : 115,
-          "BTTShortcutModifierKeys" : 8388608,
-          "BTTOrder" : 0
-        }
-      ]
-    },
-    {
-      "BTTAppBundleIdentifier" : "com.binarynights.ForkLift2",
-      "BTTAppName" : "ForkLift",
-      "BTTAppProcessMatchMode" : 2,
-      "BTTAppProcessName" : "ForkLift",
-      "BTTTriggers" : [
-        {
-          "BTTTriggerType" : 1000,
-          "BTTTriggerTypeDescription" : "Leftclick (needs modifier key)",
-          "BTTTriggerClass" : "BTTTriggerTypeNormalMouse",
-          "BTTPredefinedActionType" : 2,
-          "BTTPredefinedActionName" : "CMD(⌘)+Click",
-          "BTTEnabled" : 1,
-          "BTTRequiredModifierKeys" : 262144,
-          "BTTOrder" : 34,
-          "BTTKeySequence" : {
-
-          },
-          "BTTTriggerConfig" : {
-            "BTTTouchBarItemIconHeight" : 0,
-            "BTTTouchBarItemIconWidth" : 0
-          }
-        },
-        {
-          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTPredefinedActionType" : -1,
-          "BTTPredefinedActionName" : "No Action",
-          "BTTShortcutToSend" : "58,56,55,34",
-          "BTTEnabled" : 1,
-          "BTTShortcutKeyCode" : 4,
-          "BTTShortcutModifierKeys" : 262144,
-          "BTTOrder" : 43,
           "BTTKeySequence" : {
 
           },
@@ -509,6 +474,16 @@
         {
           "BTTTriggerType" : -1,
           "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 0,
+          "BTTPredefinedActionName" : "Use Apple Default Or Do Nothing",
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 0,
+          "BTTShortcutModifierKeys" : 262144,
+          "BTTOrder" : 0
+        },
+        {
+          "BTTTriggerType" : -1,
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
           "BTTPredefinedActionType" : -1,
           "BTTPredefinedActionName" : "No Action",
           "BTTShortcutToSend" : "59,14",
@@ -518,6 +493,7 @@
           "BTTOrder" : 3
         },
         {
+          "BTTTriggerType" : -1,
           "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
           "BTTPredefinedActionType" : 0,
           "BTTPredefinedActionName" : "Use Apple Default Or Do Nothing",
@@ -525,33 +501,6 @@
           "BTTShortcutKeyCode" : 8,
           "BTTShortcutModifierKeys" : 262144,
           "BTTOrder" : 1
-        },
-        {
-          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTPredefinedActionType" : 0,
-          "BTTPredefinedActionName" : "Use Apple Default Or Do Nothing",
-          "BTTEnabled" : 1,
-          "BTTShortcutKeyCode" : 0,
-          "BTTShortcutModifierKeys" : 262144,
-          "BTTOrder" : 0
-        }
-      ]
-    },
-    {
-      "BTTAppBundleIdentifier" : "com.google.Chrome",
-      "BTTAppName" : "Google Chrome",
-      "BTTAppProcessMatchMode" : 2,
-      "BTTAppProcessName" : "Google Chrome",
-      "BTTTriggers" : [
-        {
-          "BTTTriggerType" : 1000,
-          "BTTTriggerTypeDescription" : "Leftclick (needs modifier key)",
-          "BTTTriggerClass" : "BTTTriggerTypeNormalMouse",
-          "BTTPredefinedActionType" : 2,
-          "BTTPredefinedActionName" : "CMD(⌘)+Click",
-          "BTTEnabled" : 1,
-          "BTTRequiredModifierKeys" : 262144,
-          "BTTOrder" : 0
         }
       ]
     },
@@ -562,6 +511,7 @@
       "BTTAppProcessName" : "Parallels Desktop",
       "BTTTriggers" : [
         {
+          "BTTTriggerType" : -1,
           "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
           "BTTPredefinedActionType" : 0,
           "BTTPredefinedActionName" : "Use Apple Default Or Do Nothing",
@@ -578,22 +528,7 @@
           }
         },
         {
-          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTPredefinedActionType" : 0,
-          "BTTPredefinedActionName" : "Use Apple Default Or Do Nothing",
-          "BTTEnabled" : 1,
-          "BTTShortcutKeyCode" : 119,
-          "BTTShortcutModifierKeys" : 8388608,
-          "BTTOrder" : 45,
-          "BTTKeySequence" : {
-
-          },
-          "BTTTriggerConfig" : {
-            "BTTTouchBarItemIconHeight" : 0,
-            "BTTTouchBarItemIconWidth" : 0
-          }
-        },
-        {
+          "BTTTriggerType" : -1,
           "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
           "BTTPredefinedActionType" : 0,
           "BTTPredefinedActionName" : "Use Apple Default Or Do Nothing",
@@ -610,13 +545,14 @@
           }
         },
         {
+          "BTTTriggerType" : -1,
           "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
           "BTTPredefinedActionType" : 0,
           "BTTPredefinedActionName" : "Use Apple Default Or Do Nothing",
           "BTTEnabled" : 1,
-          "BTTShortcutKeyCode" : 9,
-          "BTTShortcutModifierKeys" : 262144,
-          "BTTOrder" : 47,
+          "BTTShortcutKeyCode" : 119,
+          "BTTShortcutModifierKeys" : 8388608,
+          "BTTOrder" : 45,
           "BTTKeySequence" : {
 
           },
@@ -626,6 +562,7 @@
           }
         },
         {
+          "BTTTriggerType" : -1,
           "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
           "BTTPredefinedActionType" : 0,
           "BTTPredefinedActionName" : "Use Apple Default Or Do Nothing",
@@ -640,6 +577,53 @@
             "BTTTouchBarItemIconHeight" : 0,
             "BTTTouchBarItemIconWidth" : 0
           }
+        },
+        {
+          "BTTTriggerType" : -1,
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 0,
+          "BTTPredefinedActionName" : "Use Apple Default Or Do Nothing",
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 9,
+          "BTTShortcutModifierKeys" : 262144,
+          "BTTOrder" : 47,
+          "BTTKeySequence" : {
+
+          },
+          "BTTTriggerConfig" : {
+            "BTTTouchBarItemIconHeight" : 0,
+            "BTTTouchBarItemIconWidth" : 0
+          }
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "org.virtualbox.app.VirtualBoxVM",
+      "BTTAppName" : "VirtualBox VM",
+      "BTTAppProcessMatchMode" : 2,
+      "BTTAppProcessName" : "VirtualBox VM",
+      "BTTTriggers" : [
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 0,
+          "BTTPredefinedActionName" : "Use Apple Default Or Do Nothing",
+          "BTTAdditionalConfiguration" : "8388608",
+          "BTTTriggerOnDown" : 1,
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 115,
+          "BTTShortcutModifierKeys" : 8388608,
+          "BTTOrder" : 0
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 0,
+          "BTTPredefinedActionName" : "Use Apple Default Or Do Nothing",
+          "BTTAdditionalConfiguration" : "8388608",
+          "BTTTriggerOnDown" : 1,
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 119,
+          "BTTShortcutModifierKeys" : 8388608,
+          "BTTOrder" : 1
         }
       ]
     }
